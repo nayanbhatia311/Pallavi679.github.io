@@ -41,8 +41,8 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Portfolio | Pallavi Pandey";
-        $("#favicon").attr("href","assests/images/favicon.ico");
+        document.title = "Portfolio | Nayan Bhatia";
+        $("#favicon").attr("href","assests/images/favicon_top.ico");
     }
     else {
         document.title = "Come Back To Portfolio";
@@ -53,7 +53,7 @@ function(){
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["fullstack development", "Begineer in Data Science", "Android development", "Freelancing"],
+        strings: ["Fullstack development", "Machine Learning", "DevOps", "Freelancing"],
         loop: true,
         typeSpeed: 50,
 		backSpeed: 25,
