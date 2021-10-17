@@ -212,7 +212,7 @@ header .navbar ul li a:hover{
   flex: 1 1 40rem;
   z-index: 1;
 }
-.home .image img{
+.home .image .img{
   width: 70%;
   margin-left: 6rem;
   border-radius: 50%;
@@ -756,7 +756,7 @@ header .navbar ul li a:hover{
 .work .box-container .box img{
   height: 100%;
   width:100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 .work .box-container .box .content{
   height: 100%;
@@ -1056,7 +1056,7 @@ header .navbar ul li a:hover{
   max-width: 60%;
   margin-left: 4rem;
 }
-.contact .content .image-box img{
+.contact .content .image-box .img{
   width: 100%;
   height: 40rem;
   position: relative;
