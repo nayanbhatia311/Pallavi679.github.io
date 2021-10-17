@@ -777,6 +777,21 @@ header .navbar ul li a:hover{
   padding-left: 1rem;
   background: #ffd900;
 }
+
+.work .box-container .box .content .tag-memories{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  width: 100%;
+  padding-left: 1rem;
+  background: #ffd900;
+}
+
+.work .box-container .box .content .tag-memories h3{
+  font-size: 1.5rem;
+}
 .work .box-container .box .content .tag h3{
   font-size: 2rem;
 }
